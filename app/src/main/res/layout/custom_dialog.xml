@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/radz"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dialogTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Radz updater needs an update"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Download Size: 1.4 MB" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+
+            <TextView
+                android:id="@+id/updatecontent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:text="To use this app, download the latest version" />
+
+
+
+
+            <Button
+                android:id="@+id/updateButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#01875f"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:text="Update"/>
+
+
+
+        </LinearLayout>
+
+
+
+</LinearLayout>
